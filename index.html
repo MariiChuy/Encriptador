@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de Texto</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body >
+    <header>
+        <img src="assets/Logo.png" alt="" class="logo">
+    </header>
+    <main>
+        <div class="container">
+            <div class="left">
+                <textarea name="" id="texto" class="texto-en" placeholder="Ingresa el texto aquí"></textarea>
+                <div class="movimiento">
+                    <span class="left-info">Solo letras minúsculas y sin acentos.</span>
+                    <div class="bot">
+                        <button id="botonEncriptar" class="boton-encriptar">Encriptar</button>
+                        <button id="botonDesencriptar" class="boton-desencriptar">Desencriptar</button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="right" id="right">
+                <img src="assets/Muñeco.png" alt="" class="muneco" id="munneco">
+                    <div class="mensaje-cri">
+                        <textarea class="men-final" id="mens-final" name="" placeholder="Ningún mensaje fue encontrado"></textarea>
+                        <p class="right-info" id="rig-inf">Ingresa el texto que desees encriptar o desencriptar.</p>
+                        <button class="copiarb oculto" id="btncopiar" >Copiar</button>
+                    </div>
+
+
+            </div>
+        </div>   
+    </main>
+
+    <footer class="footer">
+        <p>Elaborado por Maria de Jesus para AluraLatam</p>
+    </footer>
+    <script src="script.js"></script>
+    
+</body>
+
+</html>
